@@ -1,0 +1,21 @@
+.container--flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ff0000;
+    height: 100vh;
+    font-size: larger; 
+    font-family: sans-serif;
+}
+.child--flex {
+   display: flex;
+   color:black;
+   font-size: medium;
+   margin:0%;
+   padding: 0%;
+}
+.container--height {
+    height: 400vh;
+    /* line-height: 100vh; */
+}

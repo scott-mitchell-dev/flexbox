@@ -1,0 +1,31 @@
+/* pseudo classes for links */
+
+/* unvisited link */
+a:link {
+  color: #00ff00; /* doesn't work--use so the bottom two can work */
+}
+/* visited link */
+a:visited {
+  color: #0000ff;
+}
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+/* selected link  */
+a:active {
+  color: blue;
+}
+
+/* Robbins page 318 . . . "When hover effects are applied to a link (an a element), mobile operating systems may display the hover state styles after a
+single tap. To follow the link, the user must tap again." */
+
+/* this isn't just Robbins' opinion . . . 
+Note: The :hover pseudo-class is problematic on touchscreens. Depending on the browser, the :hover pseudo-class might never match, match only for a moment after touching an element, or continue to match even after the user has stopped touching and until the user touches another element. Web developers should make sure that content is accessible on devices with limited or non-existent hovering capabilities. 
+Source: https://developer.mozilla.org/en-US/docs/Web/CSS/:hover */
+    
+/* END pseudo classes for links */
+
+.test {
+    color: red; 
+}
